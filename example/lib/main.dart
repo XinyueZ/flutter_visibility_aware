@@ -103,21 +103,13 @@ class VisibilityAwareStatelessPage extends StatelessWidget {
       invisibleCallback: () async {
         debugPrint("$this is invisible.");
       },
-      child: VisibilityAware(
-        visibleCallback: () async {
-          debugPrint("Scaffold for opening VisibilityAwareStatelessPage is visible.");
-        },
-        invisibleCallback: () async {
-          debugPrint("Scaffold for opening VisibilityAwareStatelessPage is invisible.");
-        },
-        child: Scaffold(
-          appBar: AppBar(),
-          body: Container(
-            color: Colors.white,
-            child: Center(
-              child: Text(
-                "$this",
-              ),
+      child: Scaffold(
+        appBar: AppBar(),
+        body: Container(
+          color: Colors.white,
+          child: Center(
+            child: Text(
+              "$this",
             ),
           ),
         ),
@@ -143,21 +135,13 @@ class _VisibilityAwareStatefulPageState
       invisibleCallback: () async {
         debugPrint("$widget is invisible.");
       },
-      child: VisibilityAware(
-        visibleCallback: () async {
-          debugPrint("Scaffold for opening VisibilityAwareStatefulPage is visible.");
-        },
-        invisibleCallback: () async {
-          debugPrint("Scaffold for opening VisibilityAwareStatefulPage is invisible.");
-        },
-        child: Scaffold(
-          appBar: AppBar(),
-          body: Container(
-            color: Colors.white,
-            child: Center(
-              child: Text(
-                "$this",
-              ),
+      child: Scaffold(
+        appBar: AppBar(),
+        body: Container(
+          color: Colors.white,
+          child: Center(
+            child: Text(
+              "$this",
             ),
           ),
         ),
