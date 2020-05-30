@@ -145,7 +145,7 @@ class _VisibilityAwareStatefulPageState
           color: Colors.white,
           child: Center(
             child: Text(
-              "$this",
+              "$widget",
             ),
           ),
         ),
