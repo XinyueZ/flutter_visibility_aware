@@ -50,10 +50,12 @@ class SelectionPage extends StatelessWidget {
           children: <Widget>[
             VisibilityAware(
               visibleCallback: () async {
-                debugPrint("RaisedButton for opening VisibilityAwareStatelessPage is visible.");
+                debugPrint(
+                    "RaisedButton for opening VisibilityAwareStatelessPage is visible.");
               },
               invisibleCallback: () async {
-                debugPrint("RaisedButton for opening VisibilityAwareStatelessPage is invisible.");
+                debugPrint(
+                    "RaisedButton for opening VisibilityAwareStatelessPage is invisible.");
               },
               child: RaisedButton(
                 onPressed: () {
@@ -69,10 +71,12 @@ class SelectionPage extends StatelessWidget {
             ),
             VisibilityAware(
               visibleCallback: () async {
-                debugPrint("RaisedButton for opening VisibilityAwareStatefulPage is visible.");
+                debugPrint(
+                    "RaisedButton for opening VisibilityAwareStatefulPage is visible.");
               },
               invisibleCallback: () async {
-                debugPrint("RaisedButton for opening VisibilityAwareStatefulPage is invisible.");
+                debugPrint(
+                    "RaisedButton for opening VisibilityAwareStatefulPage is invisible.");
               },
               child: RaisedButton(
                 onPressed: () {
