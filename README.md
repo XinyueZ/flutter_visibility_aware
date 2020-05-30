@@ -4,6 +4,33 @@ A tiny widget which is aware of its visibility based on `WidgetsBindingObserver`
 https://pub.dev/packages/visibility_detector
 
 # Intro
+
+```dart
+
+    // Just wrapper on the widget which wants to handle visible or invisible events. 
+
+    VisibilityAware(
+      visibleCallback: () async {
+        debugPrint("$this is visible.");
+      },
+      invisibleCallback: () async {
+        debugPrint("$this is invisible.");
+      },
+      child: Scaffold(
+        appBar: AppBar(),
+        body: Container(
+          color: Colors.white,
+          child: Center(
+            child: Text(
+              "$this",
+            ),
+          ),
+        ),
+      ),
+    );
+
+```
+
 ![](./media/intro.gif)
 
 # Dependencies
