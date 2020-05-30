@@ -1,6 +1,14 @@
 # flutter_visibility_aware
 
-A tiny widget which is aware of it's visibility.
+A tiny widget which is aware of its visibility based on `WidgetsBindingObserver` and 
+https://pub.dev/packages/visibility_detector
+
+# Intro
+![](./media/intro.gif)
+
+# Dependencies
+
+[visibility_detector](https://pub.dev/packages/visibility_detector)
 
 ## Getting Started
 
