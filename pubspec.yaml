@@ -1,7 +1,6 @@
 name: flutter_visibility_aware
 description: A tiny widget which is aware of it's visibility based on WidgetsBindingObserver and https://pub.dev/packages/visibility_detector.
 version: 0.0.1
-author: Xinyue Zhao
 homepage: https://github.com/moia-dev
 
 environment:
